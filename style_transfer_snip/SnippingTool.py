@@ -20,9 +20,11 @@ class SnippingWidget(QtWidgets.QWidget):
 
         root = tk.Tk()
         screen_width = 0
+        screen_height = 0
         for monitor in screeninfo.get_monitors():
             screen_width += monitor.width
-        screen_height = root.winfo_screenheight()
+            if monitor.height > screen_height:
+                screen_height = monitor.height
         self.setGeometry(0, 0, screen_width, screen_height)
         self.begin = QtCore.QPoint()
         self.end = QtCore.QPoint()
