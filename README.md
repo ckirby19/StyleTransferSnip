@@ -19,7 +19,7 @@ This work is essentially the combination of the Style Transfer project from http
 
 The Style Transfer Algorithm combines the "content" of one image and the "style" of another image to create a new image that tries to minimise the loss function for both the "content" and "style". One can then take famous art pieces, such as starry night and the scream, and apply the style of that image to completely new photographs or paintings. 
 
-![Example Style Transfer](ForGithub.jpg)
+![Example Style Transfer](ForGithub.JPG)
 {Cute Dog Image Source: https://www.pexels.com/photo/white-long-coated-dog-3722196/}
 
 ### Why create it?
